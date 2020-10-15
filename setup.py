@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="NIF-validator", # Replace with your own username
-    version="0.0.3",
+    version="0.0.4",
     author="Diogo Silva",
     author_email="diogo_silva30@hotmail.com",
     description="A small Python package to validate Portuguese taxpayer numbers (NIFs)",
