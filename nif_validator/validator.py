@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 def validate(NIF: str) -> bool:
-    """ Validates Portuguese taxpayer numbers (NIF).
+    """Validates Portuguese taxpayer numbers (NIF).
 
     Parameters
     ----------
@@ -16,7 +16,7 @@ def validate(NIF: str) -> bool:
         Indicates if provided NIF is valid
     """
 
-    if not (NIF.isdigit() and len(NIF)==9):
+    if not (NIF.isdigit() and len(NIF) == 9):
         return False
     response = requests.get(f"https://www.nif.pt/?q={NIF}")
     response.raise_for_status()
