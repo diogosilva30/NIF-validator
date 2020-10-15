@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="NIF-validator-spamz23", # Replace with your own username
+    name="NIF-validator", # Replace with your own username
     version="0.0.1",
     author="Diogo Silva",
     author_email="diogo_silva30@hotmail.com",
