@@ -12,6 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/spamz23/NIF-validator",
+    install_requires=open("requirements.txt").readlines(),
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
