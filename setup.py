@@ -5,14 +5,16 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="NIF-validator", # Replace with your own username
-    version="0.0.4",
+    version="0.0.5",
     author="Diogo Silva",
     author_email="diogo_silva30@hotmail.com",
     description="A small Python package to validate Portuguese taxpayer numbers (NIFs)",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    license="MIT",
     url="https://github.com/spamz23/NIF-validator",
     install_requires=open("requirements.txt").readlines(),
+    include_package_data=True,
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
