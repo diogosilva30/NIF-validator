@@ -22,7 +22,7 @@ pip install -r requirements.txt
 # How to use it?
 It's very simple! :fire:
 
-```
+```python
 import nif_validator
 
 # Let's try validating "123456789"
