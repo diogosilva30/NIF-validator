@@ -12,7 +12,7 @@ def validate(NIF: str) -> bool:
 
     Returns
     -------
-    bool:
+    bool
         Indicates if provided NIF is valid
     """
 
