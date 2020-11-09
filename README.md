@@ -1,7 +1,7 @@
 [![PyPI version](https://badge.fury.io/py/NIF-validator.svg)](https://badge.fury.io/py/NIF-validator)
 
 # NIF-validator
-A small Python package to validate Portuguese taxpayer numbers (NIFs). It checks if NIFs are in a correct format and if they do in fact exist.
+A small Python package to validate Portuguese taxpayer numbers (NIFs). It checks if NIFs are in a **correct format** and if they do in fact **exist**.
 
 # Installation :package: 
 
