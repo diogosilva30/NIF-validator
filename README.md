@@ -26,12 +26,12 @@ It's very simple! :fire:
 import nif_validator
 
 # Let's try validating "123456789"
-nif_validator.validate("123456789") # Returns True
-
+nif_validator.validate("123456789")
+>>> True
 # Let's try validating "123x56789" (notice the typo 'x')
-nif_validator.validate("123x56789") # Returns False
-
+nif_validator.validate("123x56789") 
+>>> False
 # Let's try validating "123" (too small, must be 9 digits)
-nif_validator.validate("123") # Returns False
-
+nif_validator.validate("123") 
+>>> False
 ```
